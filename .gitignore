@@ -1,0 +1,23 @@
+# Dependências / build
+node_modules/
+dist/
+build/
+
+# Arquivos exportados pelo editor em tempo de execução
+composicao-*.png
+composicao-*.mp4
+composicao-*.webm
+overlay-*.png
+
+# Assets colados automaticamente pelo Claude Design
+uploads/
+
+# Stash de origem das fontes (só fonts/chirp-*.woff entram no runtime)
+fonte/
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
